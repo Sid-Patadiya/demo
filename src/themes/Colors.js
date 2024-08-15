@@ -24,7 +24,7 @@ export const Colors = {
   White_200: '#F6F6F6',
   White_300: '#E8E8E8 ',
 
-  Black: '#00000',
+  Black: '#000',
 
   Background: '#FBFBFB',
 
