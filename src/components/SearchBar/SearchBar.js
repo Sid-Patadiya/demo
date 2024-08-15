@@ -33,6 +33,7 @@ const SearchBar = ({isFilter = true, onChangeText, value, placeholder}) => {
           buttonStyle={styles.filterButton}
           name={'options-outline'}
           type={'Ionicons'}
+          color={Colors.Black}
         />
       )}
     </View>

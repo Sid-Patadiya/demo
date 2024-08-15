@@ -14,6 +14,7 @@ const Header = ({title, onPressMenu, onPressNotification}) => {
         type={'Entypo'}
         size={30}
         onPress={onPressMenu}
+        color={Colors.Black}
       />
       <Text style={styles.headingText}>{title}</Text>
       <CustomIcon
@@ -21,6 +22,7 @@ const Header = ({title, onPressMenu, onPressNotification}) => {
         type={'Ionicons'}
         size={30}
         onPress={onPressNotification}
+        color={Colors.Black}
       />
     </View>
   );
