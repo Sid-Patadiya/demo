@@ -36,6 +36,8 @@ export const styles = StyleSheet.create({
   profileName: {
     marginTop: 5,
     fontWeight: 'bold',
+    color: Colors.Text_100,
+    fontSize: scale(12),
   },
   headingViewContainer: {
     backgroundColor: Colors.Secondary_300,
